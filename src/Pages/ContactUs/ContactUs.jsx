@@ -6,7 +6,7 @@ import StickyBar from '../../components/StickyBar/StickyBar';
 import LandingImage from '../../components/molecules/LandingImage/LandingImage';
 import Footer from '../../components/organisms/Footer/Footer';
 import ContactCard from '../../components/atoms/ContactCard/ContactCard';
-import Form from '../../components/molecules/Form/Form';
+import FormComponent from '../../components/molecules/Form/FormComponent';
 
 function ContactUs() {
   return (
@@ -23,7 +23,7 @@ function ContactUs() {
           travel experience even better.
         </p>
       </div>
-      <Form />
+      <FormComponent />
       <ContactCard />
       <Footer />
     </div>

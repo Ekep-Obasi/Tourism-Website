@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './Form.module.css';
 import Buttons from '../../atoms/Buttons/Buttons';
 
-function Form() {
+function FormComponent() {
   return (
     <form className={styles['ContactUs-form']}>
       <h3>Contact Us</h3>
@@ -41,4 +41,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default FormComponent;
