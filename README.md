@@ -1,4 +1,4 @@
-# 🌴 TOURISM TO RWANDA 🌴
+# 🌴 TOUR TO RWANDA 🌴
 
 Tour to Rwanda is a website that provides information about tourism in Rwanda. The site is built with [Create React App](https://github.com/facebook/create-react-app).
 The site is a great resource for people who are interested in learning more about Rwanda and its tourism industry. It includes information 📊 about the country's history, culture, wildlife, and natural attractions. The site is easy to use and navigate. The information is presented in a clear and concise way. The site also includes a blog section with articles about Rwandan tourism.
