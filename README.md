@@ -15,6 +15,10 @@ Here are some of the features of the site:
 
 ![preview](public/preview-image.JPG)
 
+### Deployment
+
+You can view a deployment at [Tour to Rwanda](https://tourism-site-ekep-obasi.netlify.app)
+
 
 ## Available Scripts
 
