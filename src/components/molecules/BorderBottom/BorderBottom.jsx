@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
-import Buttons from '../../../components/atoms/Buttons/Buttons';
+import Buttons from '../../atoms/Buttons/Buttons';
 import './BorderBottom.css';
 
 function BorderBottom() {

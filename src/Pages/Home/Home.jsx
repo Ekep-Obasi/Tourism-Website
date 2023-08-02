@@ -3,12 +3,12 @@ import Footer from '../../components/organisms/Footer/Footer';
 import Header from '../../components/atoms/Header/Header';
 import NavBar from '../../components/organisms/NavBar/NavBar';
 import StickyBar from '../../components/StickyBar/StickyBar';
-import BorderBottom from './BorderBottom/BorderBottom';
-import Card from './Cards/Card';
-import Logos from './Logos/Logos';
-import Hero from './Hero/Hero';
-import Profiles from './Profiles/Profiles';
-import Slider from './Slider/Slider';
+import BorderBottom from '../../components/molecules/BorderBottom/BorderBottom';
+import Logos from '../../components/atoms/Logos/Logos';
+import Hero from '../../components/molecules/Hero/Hero';
+import Profiles from '../../components/atoms/Profiles/Profiles';
+import Slider from '../../components/molecules/Slider/Slider';
+import Card from '../../components/atoms/Cards/Card';
 
 function Home() {
   return (

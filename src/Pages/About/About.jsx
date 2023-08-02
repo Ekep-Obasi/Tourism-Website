@@ -1,11 +1,11 @@
 import React from 'react';
 import './About.css';
 import StickyBar from '../../components/StickyBar/StickyBar';
-import Menu from './BorderBottom/Menu';
-import MainAboutPage from './MainAboutPage/MainAboutPage';
-import AboutContent from './AboutContent/AboutContent';
+import MainAboutPage from '../../components/organisms/MainAboutPage/MainAboutPage';
+import AboutContent from '../../components/organisms/AboutContent/AboutContent';
 import Footer from '../../components/organisms/Footer/Footer';
 import NavBar from '../../components/organisms/NavBar/NavBar';
+import Menu from '../../components/molecules/AboutBorderBottom/AboutMenu';
 
 function About() {
   return (

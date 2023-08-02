@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import './ContactUs.css';
+import styles from './ContactUs.module.css';
 import NavBar from '../../components/organisms/NavBar/NavBar';
 import StickyBar from '../../components/StickyBar/StickyBar';
 import LandingImage from '../../components/molecules/LandingImage/LandingImage';
-import Form from './Form/Form';
 import Footer from '../../components/organisms/Footer/Footer';
-import ContactCard from './ContactCard/ContactCard';
+import ContactCard from '../../components/atoms/ContactCard/ContactCard';
+import Form from '../../components/molecules/Form/Form';
 
 function ContactUs() {
   return (
@@ -14,7 +14,7 @@ function ContactUs() {
       <StickyBar />
       <NavBar />
       <LandingImage title="Contact Us" />
-      <div className="text__containter">
+      <div className={styles.text__containter}>
         <h1>Get in Touch</h1>
         <p>
           We would love to hear from you! If you have any comments or

@@ -32,12 +32,11 @@ select {
 }
 
 .option label {
- color:#9A9AB0;
+  color: #9a9ab0;
   font-size: 12px;
 }
 
-@media screen and (max-width: 950px){
-  
+@media screen and (max-width: 950px) {
   .menu {
     padding: 5px 30px;
     justify-content: flex-start;
@@ -50,5 +49,4 @@ select {
   .tourism-site__Menu-button {
     display: none;
   }
-
 }

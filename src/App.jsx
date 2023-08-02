@@ -4,7 +4,7 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import TourPackage from './Pages/Tour Package/TourPackage';
 import Gallery from './Pages/Gallery/Gallery';
-import ContactUs from './Pages/Contact us/ContactUs';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 function App() {
   return (
