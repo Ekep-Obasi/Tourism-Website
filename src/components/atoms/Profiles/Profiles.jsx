@@ -5,14 +5,17 @@ import workersData from '../../../data/WorkersData.json';
 function Profiles() {
   return (
     <div className={styles['tourism-site__Profiles-container']}>
-      <div className={['tourism-site__Profiles-wrapper']}>
+      <div className={styles['tourism-site__Profiles-wrapper']}>
         {workersData.map((data) => {
           return (
-            <div className={['tourism-site__Profiles-profile']} key={data.id}>
-              <div className={['tourism-site__Profiles-images']}>
+            <div
+              className={styles['tourism-site__Profiles-profile']}
+              key={data.id}
+            >
+              <div className={styles['tourism-site__Profiles-images']}>
                 <img src={data.src} alt={data.name} />
               </div>
-              <div className={['tourism-site__Profiles-profile-text']}>
+              <div className={styles['tourism-site__Profiles-profile-text']}>
                 <h3>{data.name}</h3>
                 <p>{data.about}</p>
               </div>
@@ -20,7 +23,7 @@ function Profiles() {
           );
         })}
       </div>
-      <div className={['tourism-site__Profiles-tiles']}>
+      <div className={styles['tourism-site__Profiles-tiles']}>
         <span>span</span>
         <span>span</span>
         <span>span</span>
