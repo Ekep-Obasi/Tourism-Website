@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.ContactUs-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  width: 820px;
+  border: 1px solid #E1E1E1;
+  border-radius: 8px;
+  padding: 30px 45px;
+  margin: 100px auto;
+}
+
+.ContactUs-form input {
+  border: 0.5px solid #E1E1E1;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%
+}
+
+.input__phone-number-selected input {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.ContactUs-form label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.in {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2px;
+  width: 100%;
+}
+
+.input__name {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+.input__phone-number-selected {
+  display: flex;
+  width: 100%;
+}
+
+.input__phone-number-selected input {
+  flex: 2;
+}
+
+.ContactUs-form input:focus {
+  outline: none;
+}
+
+.input__message {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__phone-number-selected select {
+  font-size: 16px;
+  background-color: #E1E1E1;
+  border-radius: 8px 0 0 8px;
+}
+
+.contactUs__button button {
+  border: none;
+  color: white;
+}
+
+textarea {
+  border: 1px solid #E1E1E1;
+}
+
+@media screen and (max-width: 980px){
+  
+  .ContactUs-form {
+    width: 95%;
+    padding: 0px 5px;
+  }
+
+  .input__name {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .input__phone-number-selected {
+    width: 92.5vw;
+  }
+
+}

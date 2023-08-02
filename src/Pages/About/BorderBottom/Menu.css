@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  width: 60%;
+  border-radius: 8px;
+  transform: translateY(-265%);
+  margin: 0 0 0 100px;
+  z-index: 5;
+  background-color: white;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+select {
+  color: black;
+  background-color: inherit;
+  border: none;
+  font-size: 12px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option label {
+ color:#9A9AB0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 950px){
+  
+  .menu {
+    padding: 5px 30px;
+    justify-content: flex-start;
+    width: 75%;
+    margin: auto;
+    transform: translateY(-50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .tourism-site__Menu-button {
+    display: none;
+  }
+
+}

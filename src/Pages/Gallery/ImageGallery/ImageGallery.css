@@ -1,0 +1,361 @@
+.MainBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 75px 0;
+  color: transparent;
+}
+
+.box {
+  height: 496px;
+  width: 1124px;
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+.box-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.box-1-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://live.staticflickr.com/2521/3990945324_364f41cd2f_w.jpg');
+  height: 495px;
+  width: 215px;
+  justify-content: space-between;
+}
+
+.box-1-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg');
+  height: 247px;
+  width: 215px;
+}
+
+.box-1-c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 247px;
+  width: 215px;
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-2-a {
+  height: 341px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+}
+
+.box-2-b {
+  height: 152px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('http://www.mrlinhadventure.com/UserFiles/image/Travel-blog/Image-content/bac%20son%20valley.jpg');
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-3-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://cdn.shortpixel.ai/spai/w_918+q_lossy+ret_img+to_webp/https://www.cruisingworld.com/wp-content/uploads/sites/17/2021/09/CRW0220_WPT02.jpg');
+  height: 247px;
+  width: 442px;
+}
+
+.box-3-b {
+  height: 247px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://media.istockphoto.com/id/1194405278/photo/traditional-round-houses-in-an-african-village.jpg?s=612x612&w=0&k=20&c=0-Y9W3jmgCQe9CMYTm-4IKWCr1kSLRCXklfUnyK90c4=');
+}
+
+.box-3-c {
+  height: 247px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.liherald.com/uploads/original/20220721-111341-skybox%202%20---200%20B%20FRE%20Canoe%208-5-21.JPG');
+}
+
+.flex-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  height: 496px;
+  width: 1124px;
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+.box-4 {
+  display: flex;
+  gap: 10px;
+}
+
+.box-4-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://live.staticflickr.com/2521/3990945324_364f41cd2f_w.jpg');
+  height: 495px;
+  width: 215px;
+}
+
+.box-4-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg');
+  height: 247px;
+  width: 215px;
+}
+
+.box-4-c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 247px;
+  width: 215px;
+}
+
+.flex-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-5-a {
+  height: 341px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+}
+
+.box-5-b {
+  height: 152px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('http://www.mrlinhadventure.com/UserFiles/image/Travel-blog/Image-content/bac%20son%20valley.jpg');
+}
+
+.box-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-6-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://cdn.shortpixel.ai/spai/w_918+q_lossy+ret_img+to_webp/https://www.cruisingworld.com/wp-content/uploads/sites/17/2021/09/CRW0220_WPT02.jpg');
+  height: 247px;
+  width: 442px;
+}
+
+.box-6-b {
+  height: 247px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://media.istockphoto.com/id/1194405278/photo/traditional-round-houses-in-an-african-village.jpg?s=612x612&w=0&k=20&c=0-Y9W3jmgCQe9CMYTm-4IKWCr1kSLRCXklfUnyK90c4=');
+}
+
+.box-6-c {
+  height: 247px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://journals.openedition.org/jso/docannexe/image/8760/img-1-small480.jpg');
+}
+
+.flex-6 {
+  display: flex;
+  gap: 10px;
+}
+
+.box-A {
+  margin: auto;
+  gap: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.box {
+  height: 496px;
+  width: 1124px;
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+.box-7 {
+  display: flex;
+  gap: 10px;
+}
+
+.box-1-7 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://live.staticflickr.com/2521/3990945324_364f41cd2f_w.jpg');
+  height: 495px;
+  width: 215px;
+}
+
+.box-7-b {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg');
+  height: 247px;
+  width: 215px;
+}
+
+.box-7-c {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 247px;
+  width: 215px;
+}
+
+.flex-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-8-a {
+  height: 341px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.discoverafrica.com/wp-content/uploads/2021/11/volcanoes_national_park-1200x800.jpg.webp');
+}
+
+.box-8-b {
+  height: 152px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('http://www.mrlinhadventure.com/UserFiles/image/Travel-blog/Image-content/bac%20son%20valley.jpg');
+}
+
+.box-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-9-a {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://cdn.shortpixel.ai/spai/w_918+q_lossy+ret_img+to_webp/https://www.cruisingworld.com/wp-content/uploads/sites/17/2021/09/CRW0220_WPT02.jpg');
+  height: 247px;
+  width: 442px;
+}
+
+.box-9-b {
+  height: 247px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://media.istockphoto.com/id/1194405278/photo/traditional-round-houses-in-an-african-village.jpg?s=612x612&w=0&k=20&c=0-Y9W3jmgCQe9CMYTm-4IKWCr1kSLRCXklfUnyK90c4=');
+}
+
+.box-9-c {
+  height: 247px;
+  width: 215px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://www.liherald.com/uploads/original/20220721-111341-skybox%202%20---200%20B%20FRE%20Canoe%208-5-21.JPG');
+}
+
+.flex-9 {
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 950px){
+  
+  .MainBox {
+    overflow: hidden;
+    padding: 0;
+  }
+
+  *{
+    overflow-x: hidden;
+  }
+
+}

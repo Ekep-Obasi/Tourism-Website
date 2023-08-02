@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.tourism-site__navbar-container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 5%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.tourism-site__navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.tourism-site__navbar-logo img {
+  width: 96px;
+  height: 97px;
+  display: flex;
+  align-items: center;
+}
+
+.tourism-site__navbar-links ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 25px 12px;
+}
+
+.tourism-site__navbar-links ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.tourism-site__navbar-links ul li a {
+  text-decoration: none;
+  color: #515151;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+}
+
+.tourism-site__navbar-links ul li:hover {
+  border-bottom: 5px solid #515151;
+  cursor: pointer;
+}
+
+.tourism-site__navbar-search-icon {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  color:  #fff;
+}
+
+.tourism-site__navbar-menu {
+  display: none;
+}
+
+.tourism-site__navbar-menu ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  background-color: white;
+  padding: 0;
+  position: absolute;
+  top: 165px;
+  right: 0;
+  width: 200px;
+}
+
+.tourism-site__navbar-menu li {
+  padding: 0.5rem 0;
+  margin: 0;
+  width: 100%;
+}
+
+.tourism-site__navbar-menu li:hover {
+  background-color: rgb(81, 81, 81, 0.8);
+  cursor: pointer;
+}
+
+.tourism-site__navbar-menu ul li a {
+  text-decoration: none;
+  color: #515151;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+}
+
+@media screen and (max-width: 1050px){
+  
+  .tourism-site__navbar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tourism-site__navbar-links {
+    display: none;
+  }
+
+  .tourism-site__navbar-search-icon {
+    display: none;
+  }
+}

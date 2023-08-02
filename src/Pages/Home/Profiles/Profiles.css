@@ -1,0 +1,79 @@
+.tourism-site__Profiles-container {
+  flex-direction: column;
+  display: flex;
+  gap: 50px;
+}
+
+.tourism-site__Profiles-images img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #304F47;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.tourism-site__Profiles-profile {
+  margin: 100px 0 0 0;
+  text-align: center;
+  width: 300px;
+  height: 380px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tourism-site__Profiles-profile-text p {
+  width: 249px;
+  word-break: normal;
+  text-align: left;
+  margin: auto;
+  font-size: 16px;
+  color:#9a9ab0;
+}
+
+.tourism-site__Profiles-wrapper {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.tourism-site__Profiles-tiles span {
+  padding: 2px 25px;
+  font-size: 10px;
+}
+
+.tourism-site__Profiles-tiles span:first-child {
+  background-color: #c7923e;
+  color: #c7923e;
+}
+
+.tourism-site__Profiles-tiles span:nth-child(2) {
+  background-color:#304f47;
+  color: #304f47;
+}
+
+.tourism-site__Profiles-tiles span:last-child {
+  background-color: #304f47;
+  color: #304f47;
+}
+
+.tourism-site__Profiles-tiles {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 35px;
+}
+
+@media screen and (max-width: 950px) {
+  .tourism-site__Profiles-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tourism-site__Profiles-profile {
+    margin: 10px auto;
+    flex-wrap: wrap;
+  }
+  
+}

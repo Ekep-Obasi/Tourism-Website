@@ -1,0 +1,26 @@
+[
+  {
+    "scr":"https://www.constructionweekonline.com/cloud/2021/07/07/OC-1.gif",
+    "title":"Kigali",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.",
+    "id":"1"
+  },
+  {
+    "scr":"https://www.bwindiugandagorillatrekking.com/wp-content/uploads/2020/04/Ethnographic-Museum-845x321.png",
+    "title":"Huye",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.",
+    "id":"2"
+  },
+  {
+    "scr":"https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2020/11/05/rubavu-large.jpg",
+    "title":"Rubavu",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.",
+    "id":"3"
+  },
+  {
+    "scr":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/dc/3a/eb/mountain-gorilla-naming.jpg?w=700&h=500&s=1",
+    "title":"Muzane",
+    "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.",
+    "id":"4"
+  }
+]

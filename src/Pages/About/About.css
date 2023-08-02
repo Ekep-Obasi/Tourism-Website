@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+.tourism-site__header-text {
+  font-size: 62px;
+  width: 90%;
+  text-align: center;
+  margin: 100px auto;
+  font-family: 'Lora',sans-serif;
+}
+
+hr {
+  width: 25%;
+  height: 10px;
+  background-color:#304F47;
+  border: none;
+}
+
+@media screen  and (max-width: 950px) {
+  
+  .aboutContainer h1 {
+    font-size: 32px;
+    width: 100%;
+    padding: 0;
+  }
+}
