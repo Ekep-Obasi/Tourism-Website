@@ -13,7 +13,8 @@ Here are some of the features of the site:
 
 ## Project Preview
 
-![preview](public/preview_update.JPG)**
+![preview](public/preview-image.JPG)
+
 
 ## Available Scripts
 
