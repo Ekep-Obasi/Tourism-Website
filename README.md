@@ -17,7 +17,7 @@ Here are some of the features of the site:
 
 ## Deployment
 
-You can view a deployment at [Tour to Rwanda](https://tourism-site-ekep-obasi.netlify.app)
+You can view a deployment at <bold>[Tour to Rwanda](https://tourism-site-ekep-obasi.netlify.app)</bold>
 
 ## Getting Started
 
