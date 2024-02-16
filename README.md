@@ -25,7 +25,11 @@ To get started with the tourism-site, simply clone the repository and install th
 
 ```sh
 git clone https://github.com/Ekep-Obasi/Tourism-Website.git
+```
+```sh
 cd Tourism-Website
+```
+```sh
 npm run install
 ```
 ## Run Code
